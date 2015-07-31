@@ -29,6 +29,10 @@ public class Estado {
         this.sigla = sigla;
         this.total = total;
     }
+    
+    public Estado(String sigla) {
+        this.sigla = sigla;
+    }
 
     public String getSigla() {
         return sigla;
